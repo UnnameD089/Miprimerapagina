@@ -9,6 +9,7 @@
   <header>
     <h1>Nombre del sitio web encabezado</h1>
   </header>
+  <main class="greeting">
   <div class="container-nav">
     <nav class="navbar" role="navigation">
       <a href="index.html" class="brand">Mi página web</a>
@@ -26,17 +27,17 @@
 <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre
 nuestra empresa y los servicios que ofrecemos.</p>
   <div class="img-container">
-<img src="/class 8/img/imag1.jpg" alt="Descripción de la imagen 1" />
-<img src="/class 8/img/imag2.webp" alt="Descripción de la imagen 2" />
-<img src="/class 8/img/imagn3.jpeg" alt="Descripción de la imagen 3" />
+<img src="/Miprimerapagina/img/imag1.jpg" alt="Descripción de la imagen 1" />
+<img src="/Miprimerapagina/img/imag2.webp" alt="Descripción de la imagen 2" />
+<img src="/Miprimerapagina/img/imagn3.jpeg" alt="Descripción de la imagen 3" />
 </div>
   </div>
 
 
-  <main>
+  
     <audio controls autoplay id="music">
 
-        <source src="/class 8/music/musicmundial.mp3" type="audio/mpeg">
+        <source src="/Miprimerapagina/music/musicmundial.mp3" type="audio/mpeg">
         
         </audio> 
        
@@ -62,7 +63,15 @@ nuestra empresa y los servicios que ofrecemos.</p>
   </main>
 
   <footer>
-    pie de pag
+    <div class="footer">
+      pie de pag
+      <button onclick="mostrar()"> Mostrar</button>
+      <script type="text/javascript">
+          function mostrar(){
+              swal("Bien ahi!", "llegaste al pie de pag!", "success");
+          }
+      </script>
+      </div>
   </footer>
   <script src="script.js"></script>
 </body>

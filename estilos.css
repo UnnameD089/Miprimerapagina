@@ -4,6 +4,9 @@
   background-color: blue;
   font-size: 30px;
 }
+.greeting {
+  text-align: center;
+}
 .Santiago {
   font-family: 'Times New Roman', Times, serif;
   font-size: 100px;
