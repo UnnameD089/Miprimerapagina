@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de etiqueta nav</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head> 
+<body>
+  <header>
+    <h1>Nombre del sitio web encabezado</h1>
+  </header>
+
+  <div class="container-nav">
+    <nav class="navbar" role="navigation">
+      <a href="index.html" class="brand">Mi página web</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="acerca.html">About</a></li>
+        <li><a href="servicios.html">Services</a></li>
+        <li><a href="contacto.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="button-menu-toggle">Menu</button>
+  </div>
+
+
+  <main>
+  
+
+    <h1>Bienvenidos a mi primer Website!</h1>
+    <h2>Comunidad EGG</h2> 
+    <p>
+      <button onClick="showAlert()" aria-label="Dispara una alerta de saludo">¡Haz
+        clic en mí!</button>
+        <div class="Santiago">
+        Soy Santiago,¡y esta es mi primera página web! 
+       </div>
+    </p>
+    <p>
+        Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.
+    </p>
+    <h2>
+        <div class="trabajo">
+        Primer trabajo
+    </div>
+</h2>
+    <p>
+        <div class="curso"> A lo largo de este curso, estare aprendiendo HTML, CSS y JavaScript. 
+            Estos lenguajes me ayudaran a crear una base solida en el desarrollo web front-end.
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/usORIsZ1gaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="ejemplo"> esto es un ejemplo</div>
+        <!--musica-->
+
+    <!-- Song list -->
+    <audio controls id="music">
+
+      <source src="/class 8/music/music2.mp3" type="audio/mpeg">
+      tu navegador no es compatible con el audio de HTML5
+      
+      </audio> 
+     
+      <script>
+      
+      var myMusic= document.getElementById("music");
+      
+      function play() {
+      
+      myMusic.play();
+      
+      }
+      
+      function pause() {
+      
+      myMusic.pause();
+      
+      }
+      
+      </script>
+    </ul>
+</div>
+    </p>
+
+<script src="script.js"></script>
+  </main>
+
+  <footer>
+    <div class="footer">
+    pie de pag
+    <button onclick="mostrar()"> Mostrar</button>
+    <script type="text/javascript">
+        function mostrar(){
+            swal("Bien ahi!", "llegaste al pie de pag!", "success");
+        }
+    </script>
+    </div>
+  </footer>
+</body>
+</html>
